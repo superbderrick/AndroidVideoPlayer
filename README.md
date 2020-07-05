@@ -1,2 +1,2 @@
-# SummerTrimmer
-iOS Video Trimmer like Instagram Trim feature.
+# SummerPlayerView
+Android Custome VideoPlayerview 
