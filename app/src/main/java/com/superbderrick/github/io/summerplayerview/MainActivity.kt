@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
                 fakeAPIRequest()
             }
 
+            logThread("CLICK")
+
         }
 
     }
@@ -61,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
     private suspend fun getResult1FromAPI() : String {
         logThread("getResult1FromAPI")
-        delay(1000) //Does not block thread. Just suspends the coruthin sin die the thread
+        delay(3000) //Does not block thread. Just suspends the coruthin sin die the thread
         return "Result #1"
     }
 
@@ -72,9 +74,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun logThread(methodName:String) {
-        println("debug: ${methodName}: ${Thread.currentThread().name}")
+        println("derrick: ${methodName}: ${Thread.currentThread().name}")
     }
-
-
-
+    
 }
