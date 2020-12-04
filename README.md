@@ -1,2 +1,2 @@
-# SummerPlayerView
+# AndroidVideoPlayer
 Android Custom VideoPlayerview 
